@@ -91,6 +91,10 @@
       {
         "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/stage/Instructions/Labs/LAB_AK_08_Lab1_Ex2_Notebooks.md",
         "Order": 22
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/stage/Instructions/VTD_Demos/00-prerequisites.md",
+        "Order": 23
       }
     ]
   }
