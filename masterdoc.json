@@ -9,87 +9,87 @@
         "Order": 1
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/prod/Instructions/Labs/LAB_AK_01_Lab1_Ex1_Explore_M365_Defender.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/stage/Instructions/Labs/LAB_AK_01_Lab1_Ex1_Explore_M365_Defender.md",
         "Order": 2
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/prod/Instructions/Labs/LAB_AK_02_Lab1_Ex1_Deploy_Defender_Endpoint.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/stage/Instructions/Labs/LAB_AK_02_Lab1_Ex1_Deploy_Defender_Endpoint.md",
         "Order": 3
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/prod/Instructions/Labs/LAB_AK_02_Lab1_Ex2_Mitigate_Attacks.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/stage/Instructions/Labs/LAB_AK_02_Lab1_Ex2_Mitigate_Attacks.md",
         "Order": 4
       },
             {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/prod/Instructions/Labs/LAB_AK_03_Lab1_Ex1_Enable_Defender.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/stage/Instructions/Labs/LAB_AK_03_Lab1_Ex1_Enable_Defender.md",
         "Order": 5
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/prod/Instructions/Labs/LAB_AK_03_Lab1_Ex2_Azure_Defender.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/stage/Instructions/Labs/LAB_AK_03_Lab1_Ex2_Azure_Defender.md",
         "Order": 6
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/prod/Instructions/Labs/LAB_AK_04_Lab1_Ex1_KQL.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/stage/Instructions/Labs/LAB_AK_04_Lab1_Ex1_KQL.md",
         "Order": 7
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/prod/Instructions/Labs/LAB_AK_05_Lab1_Ex1_Deploy_Sentinel.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/stage/Instructions/Labs/LAB_AK_05_Lab1_Ex1_Deploy_Sentinel.md",
         "Order": 8
       },
             {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/prod/Instructions/Labs/LAB_AK_06_Lab1_Ex1_Connect_Services.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/stage/Instructions/Labs/LAB_AK_06_Lab1_Ex1_Connect_Services.md",
         "Order": 9
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/prod/Instructions/Labs/LAB_AK_06_Lab1_Ex2_Connect_Windows.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/stage/Instructions/Labs/LAB_AK_06_Lab1_Ex2_Connect_Windows.md",
         "Order": 10
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/prod/Instructions/Labs/LAB_AK_06_Lab1_Ex3_Connect_Linux.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/stage/Instructions/Labs/LAB_AK_06_Lab1_Ex3_Connect_Linux.md",
         "Order": 11
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/prod/Instructions/Labs/LAB_AK_06_Lab1_Ex4_Connect_Threat_Intel.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/stage/Instructions/Labs/LAB_AK_06_Lab1_Ex4_Connect_Threat_Intel.md",
         "Order": 12
       },
             {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/prod/Instructions/Labs/LAB_AK_07_Lab1_Ex1_Security_Rule.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/stage/Instructions/Labs/LAB_AK_07_Lab1_Ex1_Security_Rule.md",
         "Order": 13
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/prod/Instructions/Labs/LAB_AK_07_Lab1_Ex2_Playbook.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/stage/Instructions/Labs/LAB_AK_07_Lab1_Ex2_Playbook.md",
         "Order": 14
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/prod/Instructions/Labs/LAB_AK_07_Lab1_Ex3_Scheduled_Query.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/stage/Instructions/Labs/LAB_AK_07_Lab1_Ex3_Scheduled_Query.md",
         "Order": 15
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/prod/Instructions/Labs/LAB_AK_07_Lab1_Ex4_Attacks.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/stage/Instructions/Labs/LAB_AK_07_Lab1_Ex4_Attacks.md",
         "Order": 16
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/prod/Instructions/Labs/LAB_AK_07_Lab1_Ex5_Perform_Attacks.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/stage/Instructions/Labs/LAB_AK_07_Lab1_Ex5_Perform_Attacks.md",
         "Order": 17
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/prod/Instructions/Labs/LAB_AK_07_Lab1_Ex6_Detections.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/stage/Instructions/Labs/LAB_AK_07_Lab1_Ex6_Detections.md",
         "Order": 18
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/prod/Instructions/Labs/LAB_AK_07_Lab1_Ex7_Investigate.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/stage/Instructions/Labs/LAB_AK_07_Lab1_Ex7_Investigate.md",
         "Order": 19
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/prod/Instructions/Labs/LAB_AK_07_Lab1_Ex8_Workbooks.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/stage/Instructions/Labs/LAB_AK_07_Lab1_Ex8_Workbooks.md",
         "Order": 20
       },
             {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/prod/Instructions/Labs/LAB_AK_08_Lab1_Ex1_Hunting.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/stage/Instructions/Labs/LAB_AK_08_Lab1_Ex1_Hunting.md",
         "Order": 21
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/prod/Instructions/Labs/LAB_AK_08_Lab1_Ex2_Notebooks.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-200T00A-Microsoft-Security-Operations-Analyst/stage/Instructions/Labs/LAB_AK_08_Lab1_Ex2_Notebooks.md",
         "Order": 22
       }
     ]
