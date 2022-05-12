@@ -3,7 +3,10 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "adminUsername": {
-      "value": "GEN-UNIQUE"
+      "value": "azureuser"
+    },
+    "adminPassword": {
+      "value": "Password.1!!"
     },
     "AzureUserName": {
       "value": "GET-AZUSER-UPN"
@@ -21,13 +24,7 @@
       "value": "trainer"
     },
     "trainerUserPassword": {
-      "value": "Password.!!1"
-    },
-    "adminPassword": {
-      "value": "GEN-PASSWORD"
-    },
-    "remoteAllowedCIDR": {
-      "value": "0.0.0.0/0"
+      "value": "Password.1!!"
     }
   }
 }
