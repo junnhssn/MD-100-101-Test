@@ -6,7 +6,7 @@
       "value": "azureuser"
     },
     "adminPassword": {
-      "value": "Password.1!!"
+      "value": "GEN-PASSWORD"
     },
     "AzureUserName": {
       "value": "GET-AZUSER-UPN"
@@ -14,17 +14,17 @@
     "AzurePassword": {
       "value": "GET-AZUSER-PASSWORD"
     },
-    "ODLID": {
-      "value": "GET-ODL-ID"
-    },
     "DeploymentID": {
       "value": "GET-DEPLOYMENT-ID"
+    },
+    "ODLID": {
+      "value": "GET-ODL-ID"
     },
     "trainerUserName": {
       "value": "trainer"
     },
     "trainerUserPassword": {
-      "value": "Password.1!!"
+      "value": "GEN-PASSWORD"
     }
   }
 }
