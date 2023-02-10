@@ -1,0 +1,110 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminUsername": {
+      "type": "string"
+    },
+    "adminPassword": {
+      "type": "securestring"
+    },
+    "DeploymentID": {
+      "type": "string"
+    },
+    "AzureUserName": {
+      "type": "string",
+      "metadata": {
+        "description": "AzureUserName, AzurePassword, DeploymentID parameters are required for Azure Creds file, Must use in all Windows LabVMs "
+      }
+    },
+    "AzurePassword": {
+      "type": "securestring"
+    },
+    "ODLID": {
+      "type": "string"
+    },
+    "trainerUserName": {
+      "type": "string"
+    },
+    "trainerUserPassword": {
+      "type": "string"
+    }
+  },
+  "variables": {
+    "azureSubscriptionID": "[subscription().subscriptionId]",
+    "azureTenantID": "[subscription().tenantId]",
+    "location": "[resourceGroup().location]",
+    "rgName": "[resourceGroup().name]",
+    "deploymentscriptname": "[concat('VM-deployment-', parameters('DeploymentID'))]",
+    "AzureSubscriptionID": "[subscription().subscriptionId]",
+    "AzureTenantID": "[subscription().tenantId]",
+    "vmName": "[concat('VM',parameters('DeploymentID'))]"
+  },
+  "resources": [
+    {
+      "type": "Microsoft.Resources/deploymentScripts",
+      "apiVersion": "2020-10-01",
+      "name": "[variables('deploymentscriptname')]",
+      "location": "[resourceGroup().location]",
+      "kind": "AzurePowerShell",
+
+      "properties": {
+        "azPowerShellVersion": "5.0",
+        "arguments": "[concat('-DeploymentID', ' ', concat('\\\"', parameters('DeploymentID'), '\\\"'), '-resourceGroup', ' ', concat('\\\"', variables('rgName'), '\\\"'), '-location', ' ', concat('\\\"', variables('location'), '\\\"'), '-AzureTenantID', ' ' , concat('\\\"', variables('azureTenantID'), '\\\"'), '-adminPassword', ' ' , concat('\\\"', Parameters('adminPassword'), '\\\"'), '-AzureUserName', ' ', concat('\\\"', Parameters('AzureUserName'), '\\\"'), '-AzurePassword', ' ', concat('\\\"', Parameters('AzurePassword'), '\\\"'))]",
+
+        "primaryScriptUri": "https://raw.githubusercontent.com/junnhssn/MD-100-101-Test/main/MD-100/scripts/psscript-dt.ps1",
+        "supportingScriptUris": [],
+        "timeout": "PT45M",
+        "cleanupPreference": "OnSuccess",
+        "retentionInterval": "P1D"
+      }
+    },
+    {
+      "type": "Microsoft.Compute/virtualMachines/extensions",
+      "name": "[concat(variables('vmName'),'/', 'winExtension')]",
+      "apiVersion": "2019-07-01",
+      "location": "[resourceGroup().location]",
+      "comments": "Script",
+      "tags": {
+        "displayName": "VM Extension"
+      },
+      "dependsOn": [
+        "[concat(resourceId('Microsoft.Resources/deploymentScripts', variables('deploymentscriptname')))]"
+      ],
+      "properties": {
+        "publisher": "Microsoft.Compute",
+        "type": "CustomScriptExtension",
+        "typeHandlerVersion": "1.8",
+        "autoUpgradeMinorVersion": true,
+        "settings": {
+          "fileUris": [
+            "https://raw.githubusercontent.com/junnhssn/MD-100-101-Test/main/MD-100/scripts/psscript-dt-test.ps1"
+          ],
+          "commandToExecute": "[concat('powershell.exe -ExecutionPolicy Unrestricted -File psscript-dt-test.ps1',' -adminUsername ',parameters('adminUsername'), ' -adminPassword ',parameters('adminPassword'))]"
+        }
+      }
+    }
+  ],
+  "outputs": {
+    "Windows VM DNS Name": {
+      "value": "[concat('VM',parameters('DeploymentID'), '.', resourceGroup().location, '.cloudapp.azure.com')]",
+      "type": "string"
+    },
+    "VM Admin Username": {
+      "type": "string",
+      "value": "[parameters('adminUsername')]"
+    },
+    "VM Admin Password": {
+      "type": "string",
+      "value": "[parameters('adminPassword')]"
+    },
+    "DeploymentID": {
+      "type": "string",
+      "value": "[parameters('DeploymentID')]"
+    },
+    "Trainer Password": {
+      "type": "String",
+      "value": "[parameters('trainerUserPassword')]"
+    }
+  }
+}
