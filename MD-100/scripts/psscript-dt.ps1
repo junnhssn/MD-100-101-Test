@@ -26,7 +26,6 @@ Param (
 [Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls
 [Net.ServicePointManager]::SecurityProtocol = "tls12, tls11, tls" 
 
-
 #Deploying VM image VM
 
 $applicationId = 'f2e55764-1c5e-42b9-b154-8107aa7df5cc'
