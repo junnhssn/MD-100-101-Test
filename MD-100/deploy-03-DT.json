@@ -36,7 +36,7 @@
     "location": "[resourceGroup().location]",
     "rgName": "[resourceGroup().name]",
     "deploymentscriptname": "[concat('VM-deployment-', parameters('DeploymentID'))]",
-    "cloudlabsCommon": "[concat(' -AzureUserName ', parameters('AzureUserName'), ' -AzurePassword ', parameters('AzurePassword'), ' -AzureTenantID ', variables('AzureTenantID'), ' -AzureSubscriptionID ', variables('AzureSubscriptionID'), ' -ODLID ', parameters('ODLID'))]",
+    "cloudlabsCommon": "[concat(' -AzureUserName ', parameters('AzureUserName'), ' -AzurePassword ', parameters('AzurePassword'), ' -AzureTenantID ', variables('AzureTenantID'), ' -DeploymentID', parameters('DeploymentID'), ' -AzureSubscriptionID ', variables('AzureSubscriptionID'), ' -ODLID ', parameters('ODLID'))]",
     "AzureSubscriptionID": "[subscription().subscriptionId]",
     "AzureTenantID": "[subscription().tenantId]",
     "vmName": "[concat('VM',parameters('DeploymentID'))]"
@@ -81,7 +81,7 @@
           "fileUris": [
             "https://raw.githubusercontent.com/junnhssn/MD-100-101-Test/main/MD-100/scripts/psscript-dt-test.ps1"
           ],
-          "commandToExecute": "[concat('powershell.exe -ExecutionPolicy Unrestricted -File psscript-dt-test.ps1', ' -adminUsername ',parameters('adminUsername'), ' -adminPassword ',parameters('adminPassword'), variables('cloudlabsCommon'))]"
+          "commandToExecute": "[concat('powershell.exe -ExecutionPolicy Unrestricted -File psscript-dt-test.ps1', variables('cloudlabsCommon'), ' -adminUsername ',parameters('adminUsername'), ' -adminPassword ',parameters('adminPassword'))]"
         }
       }
     }
