@@ -79,9 +79,10 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "fileUris": [
-            "https://raw.githubusercontent.com/junnhssn/MD-100-101-Test/main/MD-100/scripts/psscript-dt-test.ps1"
+            "https://raw.githubusercontent.com/junnhssn/MD-100-101-Test/main/MD-100/scripts/psscript-dt-test.ps1",
+            "https://experienceazure.blob.core.windows.net/templates/cloudlabs-common/cloudlabs-windows-functions.ps1"
           ],
-          "commandToExecute": "[concat('powershell.exe -ExecutionPolicy Unrestricted -File psscript-dt-test.ps1', variables('cloudlabsCommon'), ' -adminUsername ',parameters('adminUsername'), ' -adminPassword ',parameters('adminPassword'),' -DeploymentID', parameters('DeploymentID'))]"
+          "commandToExecute": "[concat('powershell.exe -ExecutionPolicy Unrestricted -File psscript-dt-test.ps1', variables('cloudlabsCommon'), ' -adminUsername ',parameters('adminUsername'), ' -adminPassword ',parameters('adminPassword'))]"
         }
       }
     }
