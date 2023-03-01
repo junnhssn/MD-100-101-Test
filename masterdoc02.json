@@ -1,0 +1,21 @@
+[
+  {
+    "Name": "SC-300: Identity and Access Administrator",
+    "Language": "English",
+    "BaseURL": "https://github.com/CloudLabs-MOC/SC-300-Identity-and-Access-Administrator/tree/azure-skillup",
+    "Files": [
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/alwinvw23/CloudLabs/master/LabIntro.md",
+        "Order": 1
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-300-Identity-and-Access-Administrator/azure-skillup/Instructions/Labs/Lab_09_ConfigureAndDeploySelfServicePasswordReset.md",
+        "Order": 2
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-300-Identity-and-Access-Administrator/azure-skillup/Instructions/Labs/Lab_12_ManageAzureADSmartLockoutValues.md",
+        "Order": 3
+      }
+    ]
+  }
+]
