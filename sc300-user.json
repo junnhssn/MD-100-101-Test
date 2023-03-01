@@ -12,14 +12,18 @@
       "LastName": "Wilber",
       "UPNPrefix": "alexw",
       "GlobalAdmin": false
-      ]
     },
     {
       "FirstName": "Bianca",
       "LastName": "Pisani",
       "UPNPrefix": "biancap",
       "GlobalAdmin": false
-      ]
+    },
+    {
+      "FirstName": "Grady",
+      "LastName": "Archie",
+      "UPNPrefix": "gradya",
+      "GlobalAdmin": false
     }
   ]
 }
