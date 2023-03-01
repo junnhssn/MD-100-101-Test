@@ -1,0 +1,25 @@
+{
+  "AutoPasswordGeneration": true,
+  "Users": [
+    {
+      "FirstName": "Allan",
+      "LastName": "Deyoung",
+      "UPNPrefix": "alland",
+      "GlobalAdmin": false
+    },
+    {
+      "FirstName": "Alex",
+      "LastName": "Wilber",
+      "UPNPrefix": "alexw",
+      "GlobalAdmin": false
+      ]
+    },
+    {
+      "FirstName": "Bianca",
+      "LastName": "Pisani",
+      "UPNPrefix": "biancap",
+      "GlobalAdmin": false
+      ]
+    }
+  ]
+}
