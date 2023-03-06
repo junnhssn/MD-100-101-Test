@@ -1,0 +1,18 @@
+{
+  "if": {
+    "anyOf": [
+      {
+        "allOf": [
+          {
+            "field": "type",
+            "equals": "Microsoft.*"
+          }
+
+        ]
+      },
+
+  },
+  "then": {
+    "effect": "deny"
+  }
+}
